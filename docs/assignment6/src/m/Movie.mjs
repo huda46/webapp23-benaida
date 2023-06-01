@@ -7,7 +7,8 @@
  * can be modified to create derivative works, can be redistributed, and can be used in commercial applications.
  */
 //isNonEmptyString, isPositiveInteger
-import { cloneObject, isIntegerOrIntegerString, isNonEmptyString, createIsoDateString, isPositiveInteger} from "../../lib/util.mjs";
+import { cloneObject, isIntegerOrIntegerString, isNonEmptyString,
+        createIsoDateString, isPositiveInteger} from "../../lib/util.mjs";
 import { ConstraintViolation, FrozenValueConstraintViolation, MandatoryValueConstraintViolation,
   NoConstraintViolation, PatternConstraintViolation, RangeConstraintViolation,
   UniquenessConstraintViolation} from "../../lib/errorTypes.mjs";
